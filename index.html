@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>BayarIN - Invoice Management System</title>
+    <meta name="title" content="BayarIN - Invoice Management System">
+    <meta name="description" content="Create, manage, and send professional invoices easily with automated payment reminders and multiple payment options.">
+    <meta name="keywords" content="invoice, billing, payment management, invoice generator, business tools, UMKM, freelancer">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BayarIN - Invoice Management System">
+    <meta property="og:description" content="Create, manage, and send professional invoices easily with automated payment reminders and multiple payment options.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="BayarIN - Invoice Management System">
+    <meta property="twitter:description" content="Create, manage, and send professional invoices easily with automated payment reminders and multiple payment options.">
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/dashboard.css" rel="stylesheet">
+    <link href="styles/invoice.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="utils/supabaseClient.js"></script>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Sidebar.js"></script>
+    <script type="text/babel" src="components/Dashboard.js"></script>
+    <script type="text/babel" src="components/InvoiceList.js"></script>
+    <script type="text/babel" src="components/InvoiceForm.js"></script>
+    <script type="text/babel" src="components/InvoicePreview.js"></script>
+    <script type="text/babel" src="components/ClientList.js"></script>
+    <script type="text/babel" src="components/PaymentStatus.js"></script>
+    <script type="text/babel" src="utils/invoiceUtils.js"></script>
+    <script type="text/babel" src="utils/dateUtils.js"></script>
+    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="utils/storageUtils.js"></script>
+    <script type="text/babel" src="components/Login.js"></script>
+    <script type="text/babel" src="components/Settings.js"></script>
+    <script type="text/babel" src="components/Payments.js"></script>
+    <script type="text/babel" src="components/ClientForm.js"></script>
+</body>
+</html>
